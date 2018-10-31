@@ -1,0 +1,68 @@
+[02-May-2018 13:18:23 America/New_York] PHP Warning:  PDO::__construct(): php_network_getaddresses: getaddrinfo failed: Name or service not known in /home/myreadyl/includes/vendor/doctrine/dbal/lib/Doctrine/DBAL/Driver/PDOConnection.php on line 40
+[02-May-2018 13:18:23 America/New_York] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [2002] php_network_getaddresses: getaddrinfo failed: Name or service not known' in /home/myreadyl/includes/vendor/doctrine/dbal/lib/Doctrine/DBAL/Driver/PDOConnection.php:40
+Stack trace:
+#0 /home/myreadyl/includes/vendor/doctrine/dbal/lib/Doctrine/DBAL/Driver/PDOConnection.php(40): PDO->__construct('mysql:host=mari...', '991052_rdylnkpr...', 'rbeb4^5eMtyG', Array)
+#1 /home/myreadyl/includes/vendor/doctrine/dbal/lib/Doctrine/DBAL/Driver/PDOMySql/Driver.php(41): Doctrine\DBAL\Driver\PDOConnection->__construct('mysql:host=mari...', '991052_rdylnkpr...', 'rbeb4^5eMtyG', Array)
+#2 /home/myreadyl/includes/vendor/doctrine/dbal/lib/Doctrine/DBAL/Connection.php(356): Doctrine\DBAL\Driver\PDOMySql\Driver->connect(Array, '991052_rdylnkpr...', 'rbeb4^5eMtyG', Array)
+#3 /home/myreadyl/includes/vendor/doctrine/dbal/lib/Doctrine/DBAL/Connection.php(644): Doctrine\DBAL\Connection->connect()
+#4 /home/myreadyl/includes/app/lib/MyReadyLink/Reports/ListingData.php(1 in /home/myreadyl/includes/vendor/doctrine/dbal/lib/Doctrine/DBAL/Driver/PDOConnection.php on line 40
+[02-May-2018 13:18:38 America/New_York] PHP Warning:  PDO::__construct(): php_network_getaddresses: getaddrinfo failed: Name or service not known in /home/myreadyl/includes/vendor/doctrine/dbal/lib/Doctrine/DBAL/Driver/PDOConnection.php on line 40
+[02-May-2018 13:18:38 America/New_York] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [2002] php_network_getaddresses: getaddrinfo failed: Name or service not known' in /home/myreadyl/includes/vendor/doctrine/dbal/lib/Doctrine/DBAL/Driver/PDOConnection.php:40
+Stack trace:
+#0 /home/myreadyl/includes/vendor/doctrine/dbal/lib/Doctrine/DBAL/Driver/PDOConnection.php(40): PDO->__construct('mysql:host=mari...', '991052_rdylnkpr...', 'rbeb4^5eMtyG', Array)
+#1 /home/myreadyl/includes/vendor/doctrine/dbal/lib/Doctrine/DBAL/Driver/PDOMySql/Driver.php(41): Doctrine\DBAL\Driver\PDOConnection->__construct('mysql:host=mari...', '991052_rdylnkpr...', 'rbeb4^5eMtyG', Array)
+#2 /home/myreadyl/includes/vendor/doctrine/dbal/lib/Doctrine/DBAL/Connection.php(356): Doctrine\DBAL\Driver\PDOMySql\Driver->connect(Array, '991052_rdylnkpr...', 'rbeb4^5eMtyG', Array)
+#3 /home/myreadyl/includes/vendor/doctrine/dbal/lib/Doctrine/DBAL/Connection.php(644): Doctrine\DBAL\Connection->connect()
+#4 /home/myreadyl/includes/app/lib/MyReadyLink/Reports/ListingData.php(1 in /home/myreadyl/includes/vendor/doctrine/dbal/lib/Doctrine/DBAL/Driver/PDOConnection.php on line 40
+[02-May-2018 13:18:55 America/New_York] PHP Warning:  PDO::__construct(): php_network_getaddresses: getaddrinfo failed: Name or service not known in /home/myreadyl/includes/vendor/doctrine/dbal/lib/Doctrine/DBAL/Driver/PDOConnection.php on line 40
+[02-May-2018 13:18:55 America/New_York] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [2002] php_network_getaddresses: getaddrinfo failed: Name or service not known' in /home/myreadyl/includes/vendor/doctrine/dbal/lib/Doctrine/DBAL/Driver/PDOConnection.php:40
+Stack trace:
+#0 /home/myreadyl/includes/vendor/doctrine/dbal/lib/Doctrine/DBAL/Driver/PDOConnection.php(40): PDO->__construct('mysql:host=mari...', '991052_rdylnkpr...', 'rbeb4^5eMtyG', Array)
+#1 /home/myreadyl/includes/vendor/doctrine/dbal/lib/Doctrine/DBAL/Driver/PDOMySql/Driver.php(41): Doctrine\DBAL\Driver\PDOConnection->__construct('mysql:host=mari...', '991052_rdylnkpr...', 'rbeb4^5eMtyG', Array)
+#2 /home/myreadyl/includes/vendor/doctrine/dbal/lib/Doctrine/DBAL/Connection.php(356): Doctrine\DBAL\Driver\PDOMySql\Driver->connect(Array, '991052_rdylnkpr...', 'rbeb4^5eMtyG', Array)
+#3 /home/myreadyl/includes/vendor/doctrine/dbal/lib/Doctrine/DBAL/Connection.php(644): Doctrine\DBAL\Connection->connect()
+#4 /home/myreadyl/includes/app/lib/MyReadyLink/Reports/ListingData.php(1 in /home/myreadyl/includes/vendor/doctrine/dbal/lib/Doctrine/DBAL/Driver/PDOConnection.php on line 40
+[02-May-2018 13:18:59 America/New_York] PHP Warning:  PDO::__construct(): php_network_getaddresses: getaddrinfo failed: Name or service not known in /home/myreadyl/includes/vendor/doctrine/dbal/lib/Doctrine/DBAL/Driver/PDOConnection.php on line 40
+[02-May-2018 13:18:59 America/New_York] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [2002] php_network_getaddresses: getaddrinfo failed: Name or service not known' in /home/myreadyl/includes/vendor/doctrine/dbal/lib/Doctrine/DBAL/Driver/PDOConnection.php:40
+Stack trace:
+#0 /home/myreadyl/includes/vendor/doctrine/dbal/lib/Doctrine/DBAL/Driver/PDOConnection.php(40): PDO->__construct('mysql:host=mari...', '991052_rdylnkpr...', 'rbeb4^5eMtyG', Array)
+#1 /home/myreadyl/includes/vendor/doctrine/dbal/lib/Doctrine/DBAL/Driver/PDOMySql/Driver.php(41): Doctrine\DBAL\Driver\PDOConnection->__construct('mysql:host=mari...', '991052_rdylnkpr...', 'rbeb4^5eMtyG', Array)
+#2 /home/myreadyl/includes/vendor/doctrine/dbal/lib/Doctrine/DBAL/Connection.php(356): Doctrine\DBAL\Driver\PDOMySql\Driver->connect(Array, '991052_rdylnkpr...', 'rbeb4^5eMtyG', Array)
+#3 /home/myreadyl/includes/vendor/doctrine/dbal/lib/Doctrine/DBAL/Connection.php(644): Doctrine\DBAL\Connection->connect()
+#4 /home/myreadyl/includes/app/lib/MyReadyLink/Reports/ListingData.php(1 in /home/myreadyl/includes/vendor/doctrine/dbal/lib/Doctrine/DBAL/Driver/PDOConnection.php on line 40
+[02-May-2018 13:19:10 America/New_York] PHP Warning:  PDO::__construct(): php_network_getaddresses: getaddrinfo failed: Name or service not known in /home/myreadyl/includes/vendor/doctrine/dbal/lib/Doctrine/DBAL/Driver/PDOConnection.php on line 40
+[02-May-2018 13:19:10 America/New_York] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [2002] php_network_getaddresses: getaddrinfo failed: Name or service not known' in /home/myreadyl/includes/vendor/doctrine/dbal/lib/Doctrine/DBAL/Driver/PDOConnection.php:40
+Stack trace:
+#0 /home/myreadyl/includes/vendor/doctrine/dbal/lib/Doctrine/DBAL/Driver/PDOConnection.php(40): PDO->__construct('mysql:host=mari...', '991052_rdylnkpr...', 'rbeb4^5eMtyG', Array)
+#1 /home/myreadyl/includes/vendor/doctrine/dbal/lib/Doctrine/DBAL/Driver/PDOMySql/Driver.php(41): Doctrine\DBAL\Driver\PDOConnection->__construct('mysql:host=mari...', '991052_rdylnkpr...', 'rbeb4^5eMtyG', Array)
+#2 /home/myreadyl/includes/vendor/doctrine/dbal/lib/Doctrine/DBAL/Connection.php(356): Doctrine\DBAL\Driver\PDOMySql\Driver->connect(Array, '991052_rdylnkpr...', 'rbeb4^5eMtyG', Array)
+#3 /home/myreadyl/includes/vendor/doctrine/dbal/lib/Doctrine/DBAL/Connection.php(644): Doctrine\DBAL\Connection->connect()
+#4 /home/myreadyl/includes/app/lib/MyReadyLink/Reports/ListingData.php(1 in /home/myreadyl/includes/vendor/doctrine/dbal/lib/Doctrine/DBAL/Driver/PDOConnection.php on line 40
+[02-May-2018 13:19:26 America/New_York] PHP Warning:  PDO::__construct(): php_network_getaddresses: getaddrinfo failed: Name or service not known in /home/myreadyl/includes/vendor/doctrine/dbal/lib/Doctrine/DBAL/Driver/PDOConnection.php on line 40
+[02-May-2018 13:19:26 America/New_York] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [2002] php_network_getaddresses: getaddrinfo failed: Name or service not known' in /home/myreadyl/includes/vendor/doctrine/dbal/lib/Doctrine/DBAL/Driver/PDOConnection.php:40
+Stack trace:
+#0 /home/myreadyl/includes/vendor/doctrine/dbal/lib/Doctrine/DBAL/Driver/PDOConnection.php(40): PDO->__construct('mysql:host=mari...', '991052_rdylnkpr...', 'rbeb4^5eMtyG', Array)
+#1 /home/myreadyl/includes/vendor/doctrine/dbal/lib/Doctrine/DBAL/Driver/PDOMySql/Driver.php(41): Doctrine\DBAL\Driver\PDOConnection->__construct('mysql:host=mari...', '991052_rdylnkpr...', 'rbeb4^5eMtyG', Array)
+#2 /home/myreadyl/includes/vendor/doctrine/dbal/lib/Doctrine/DBAL/Connection.php(356): Doctrine\DBAL\Driver\PDOMySql\Driver->connect(Array, '991052_rdylnkpr...', 'rbeb4^5eMtyG', Array)
+#3 /home/myreadyl/includes/vendor/doctrine/dbal/lib/Doctrine/DBAL/Connection.php(644): Doctrine\DBAL\Connection->connect()
+#4 /home/myreadyl/includes/app/lib/MyReadyLink/Reports/ListingData.php(1 in /home/myreadyl/includes/vendor/doctrine/dbal/lib/Doctrine/DBAL/Driver/PDOConnection.php on line 40
+[02-May-2018 13:20:16 America/New_York] PHP Warning:  PDO::__construct(): php_network_getaddresses: getaddrinfo failed: Name or service not known in /home/myreadyl/includes/vendor/doctrine/dbal/lib/Doctrine/DBAL/Driver/PDOConnection.php on line 40
+[02-May-2018 13:20:16 America/New_York] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [2002] php_network_getaddresses: getaddrinfo failed: Name or service not known' in /home/myreadyl/includes/vendor/doctrine/dbal/lib/Doctrine/DBAL/Driver/PDOConnection.php:40
+Stack trace:
+#0 /home/myreadyl/includes/vendor/doctrine/dbal/lib/Doctrine/DBAL/Driver/PDOConnection.php(40): PDO->__construct('mysql:host=mari...', '991052_rdylnkpr...', 'rbeb4^5eMtyG', Array)
+#1 /home/myreadyl/includes/vendor/doctrine/dbal/lib/Doctrine/DBAL/Driver/PDOMySql/Driver.php(41): Doctrine\DBAL\Driver\PDOConnection->__construct('mysql:host=mari...', '991052_rdylnkpr...', 'rbeb4^5eMtyG', Array)
+#2 /home/myreadyl/includes/vendor/doctrine/dbal/lib/Doctrine/DBAL/Connection.php(356): Doctrine\DBAL\Driver\PDOMySql\Driver->connect(Array, '991052_rdylnkpr...', 'rbeb4^5eMtyG', Array)
+#3 /home/myreadyl/includes/vendor/doctrine/dbal/lib/Doctrine/DBAL/Connection.php(644): Doctrine\DBAL\Connection->connect()
+#4 /home/myreadyl/includes/app/lib/MyReadyLink/Reports/ListingData.php(1 in /home/myreadyl/includes/vendor/doctrine/dbal/lib/Doctrine/DBAL/Driver/PDOConnection.php on line 40
+[10-May-2018 08:35:30 America/New_York] PHP Strict Standards:  mysqli::next_result(): There is no next result set. Please, call mysqli_more_results()/mysqli::more_results() to check whether to call this function/method in /home/myreadylink/admin.myreadylink.com/public_html/dashboard/category-save-ajax.php on line 135
+[14-May-2018 20:05:33 America/New_York] PHP Strict Standards:  mysqli::next_result(): There is no next result set. Please, call mysqli_more_results()/mysqli::more_results() to check whether to call this function/method in /home/myreadylink/admin.myreadylink.com/public_html/dashboard/category-save-ajax.php on line 135
+[13-Jun-2018 06:42:24 America/New_York] PHP Strict Standards:  mysqli::next_result(): There is no next result set. Please, call mysqli_more_results()/mysqli::more_results() to check whether to call this function/method in /home/myreadylink/admin.myreadylink.com/public_html/dashboard/category-save-ajax.php on line 135
+[13-Jun-2018 20:26:50 America/New_York] PHP Strict Standards:  mysqli::next_result(): There is no next result set. Please, call mysqli_more_results()/mysqli::more_results() to check whether to call this function/method in /home/myreadylink/admin.myreadylink.com/public_html/dashboard/category-save-ajax.php on line 135
+[13-Jul-2018 07:36:42 America/New_York] PHP Strict Standards:  mysqli::next_result(): There is no next result set. Please, call mysqli_more_results()/mysqli::more_results() to check whether to call this function/method in /home/myreadylink/admin.myreadylink.com/public_html/dashboard/category-save-ajax.php on line 135
+[13-Jul-2018 16:58:59 America/New_York] PHP Strict Standards:  mysqli::next_result(): There is no next result set. Please, call mysqli_more_results()/mysqli::more_results() to check whether to call this function/method in /home/myreadylink/admin.myreadylink.com/public_html/dashboard/category-save-ajax.php on line 135
+[14-Jul-2018 08:53:58 America/New_York] PHP Strict Standards:  mysqli::next_result(): There is no next result set. Please, call mysqli_more_results()/mysqli::more_results() to check whether to call this function/method in /home/myreadylink/admin.myreadylink.com/public_html/dashboard/category-save-ajax.php on line 135
+[14-Jul-2018 08:57:04 America/New_York] PHP Strict Standards:  mysqli::next_result(): There is no next result set. Please, call mysqli_more_results()/mysqli::more_results() to check whether to call this function/method in /home/myreadylink/admin.myreadylink.com/public_html/dashboard/category-save-ajax.php on line 135
+[31-Jul-2018 16:05:18 America/New_York] PHP Fatal error:  Uncaught Error: Call to a member function render() on null in /home/myreadylink/admin.myreadylink.com/public_html/dashboard/listing.php:140
+Stack trace:
+#0 {main}
+  thrown in /home/myreadylink/admin.myreadylink.com/public_html/dashboard/listing.php on line 140

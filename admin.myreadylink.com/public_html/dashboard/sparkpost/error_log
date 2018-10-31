@@ -1,0 +1,350 @@
+[31-Jul-2018 17:21:49 UTC] PHP Warning:  require_once(/home/myreadylink/admin.myreadylink.com/public_html/dashboard/sparkpost/vendor/composer/autoload_real.php): failed to open stream: No such file or directory in /home/myreadylink/admin.myreadylink.com/public_html/dashboard/sparkpost/vendor/autoload.php on line 5
+[31-Jul-2018 17:21:49 UTC] PHP Fatal error:  require_once(): Failed opening required '/home/myreadylink/admin.myreadylink.com/public_html/dashboard/sparkpost/vendor/composer/autoload_real.php' (include_path='.:/opt/cpanel/ea-php70/root/usr/share/pear') in /home/myreadylink/admin.myreadylink.com/public_html/dashboard/sparkpost/vendor/autoload.php on line 5
+[31-Jul-2018 17:22:12 UTC] PHP Warning:  require_once(/home/myreadylink/admin.myreadylink.com/public_html/dashboard/sparkpost/vendor/composer/autoload_real.php): failed to open stream: No such file or directory in /home/myreadylink/admin.myreadylink.com/public_html/dashboard/sparkpost/vendor/autoload.php on line 5
+[31-Jul-2018 17:22:12 UTC] PHP Fatal error:  require_once(): Failed opening required '/home/myreadylink/admin.myreadylink.com/public_html/dashboard/sparkpost/vendor/composer/autoload_real.php' (include_path='.:/opt/cpanel/ea-php70/root/usr/share/pear') in /home/myreadylink/admin.myreadylink.com/public_html/dashboard/sparkpost/vendor/autoload.php on line 5
+[31-Jul-2018 17:22:55 UTC] PHP Warning:  require_once(/home/myreadylink/admin.myreadylink.com/public_html/dashboard/sparkpost/vendor/composer/autoload_real.php): failed to open stream: No such file or directory in /home/myreadylink/admin.myreadylink.com/public_html/dashboard/sparkpost/vendor/autoload.php on line 5
+[31-Jul-2018 17:22:55 UTC] PHP Fatal error:  require_once(): Failed opening required '/home/myreadylink/admin.myreadylink.com/public_html/dashboard/sparkpost/vendor/composer/autoload_real.php' (include_path='.:/opt/cpanel/ea-php70/root/usr/share/pear') in /home/myreadylink/admin.myreadylink.com/public_html/dashboard/sparkpost/vendor/autoload.php on line 5
+[31-Jul-2018 17:23:55 UTC] PHP Fatal error:  Uncaught Error: Class 'Http\Adapter\Guzzle6\Client' not found in /home/myreadylink/admin.myreadylink.com/public_html/dashboard/sparkpost/test-email.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/myreadylink/admin.myreadylink.com/public_html/dashboard/sparkpost/test-email.php on line 12
+[31-Jul-2018 17:23:57 UTC] PHP Fatal error:  Uncaught Error: Class 'Http\Adapter\Guzzle6\Client' not found in /home/myreadylink/admin.myreadylink.com/public_html/dashboard/sparkpost/test-email.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/myreadylink/admin.myreadylink.com/public_html/dashboard/sparkpost/test-email.php on line 12
+[31-Jul-2018 17:41:58 UTC] PHP Warning:  copy(): https:// wrapper is disabled in the server configuration by allow_url_fopen=0 in Command line code on line 1
+[31-Jul-2018 17:41:58 UTC] PHP Warning:  copy(https://getcomposer.org/installer): failed to open stream: no suitable wrapper could be found in Command line code on line 1
+[31-Jul-2018 17:42:08 UTC] PHP Warning:  hash_file(composer-setup.php): failed to open stream: No such file or directory in Command line code on line 1
+[31-Jul-2018 17:42:08 UTC] PHP Warning:  unlink(composer-setup.php): No such file or directory in Command line code on line 1
+[31-Jul-2018 17:59:47 UTC] PHP Fatal error:  Uncaught GuzzleHttp\Exception\ClientException: Client error: `POST https://api.sparkpost.com/api/v1/transmissions/` resulted in a `401 Unauthorized` response:
+{"errors": [ {"message": "Unauthorized."} ]}
+
+ in /home/myreadylink/admin.myreadylink.com/public_html/dashboard/sparkpost/vendor/guzzlehttp/guzzle/src/Exception/RequestException.php:113
+Stack trace:
+#0 /home/myreadylink/admin.myreadylink.com/public_html/dashboard/sparkpost/vendor/guzzlehttp/guzzle/src/Middleware.php(66): GuzzleHttp\Exception\RequestException::create(Object(GuzzleHttp\Psr7\Request), Object(GuzzleHttp\Psr7\Response))
+#1 /home/myreadylink/admin.myreadylink.com/public_html/dashboard/sparkpost/vendor/guzzlehttp/promises/src/Promise.php(203): GuzzleHttp\Middleware::GuzzleHttp\{closure}(Object(GuzzleHttp\Psr7\Response))
+#2 /home/myreadylink/admin.myreadylink.com/public_html/dashboard/sparkpost/vendor/guzzlehttp/promises/src/Promise.php(156): GuzzleHttp\Promise\Promise::callHandler(1, Object(GuzzleHttp\Psr7\Response), Array)
+#3 /home/myreadylin in /home/myreadylink/admin.myreadylink.com/public_html/dashboard/sparkpost/vendor/sparkpost/sparkpost/lib/SparkPost/SparkPostPromise.php on line 77
+[31-Jul-2018 18:01:07 UTC] PHP Fatal error:  Uncaught GuzzleHttp\Exception\ClientException: Client error: `POST https://api.sparkpost.com/api/v1/transmissions/` resulted in a `401 Unauthorized` response:
+{"errors": [ {"message": "Unauthorized."} ]}
+
+ in /home/myreadylink/admin.myreadylink.com/public_html/dashboard/sparkpost/vendor/guzzlehttp/guzzle/src/Exception/RequestException.php:113
+Stack trace:
+#0 /home/myreadylink/admin.myreadylink.com/public_html/dashboard/sparkpost/vendor/guzzlehttp/guzzle/src/Middleware.php(66): GuzzleHttp\Exception\RequestException::create(Object(GuzzleHttp\Psr7\Request), Object(GuzzleHttp\Psr7\Response))
+#1 /home/myreadylink/admin.myreadylink.com/public_html/dashboard/sparkpost/vendor/guzzlehttp/promises/src/Promise.php(203): GuzzleHttp\Middleware::GuzzleHttp\{closure}(Object(GuzzleHttp\Psr7\Response))
+#2 /home/myreadylink/admin.myreadylink.com/public_html/dashboard/sparkpost/vendor/guzzlehttp/promises/src/Promise.php(156): GuzzleHttp\Promise\Promise::callHandler(1, Object(GuzzleHttp\Psr7\Response), Array)
+#3 /home/myreadylin in /home/myreadylink/admin.myreadylink.com/public_html/dashboard/sparkpost/vendor/sparkpost/sparkpost/lib/SparkPost/SparkPostPromise.php on line 77
+[31-Jul-2018 18:01:56 UTC] PHP Fatal error:  Uncaught GuzzleHttp\Exception\ClientException: Client error: `POST https://api.sparkpost.com/api/v1/transmissions/` resulted in a `401 Unauthorized` response:
+{"errors": [ {"message": "Unauthorized."} ]}
+
+ in /home/myreadylink/admin.myreadylink.com/public_html/dashboard/sparkpost/vendor/guzzlehttp/guzzle/src/Exception/RequestException.php:113
+Stack trace:
+#0 /home/myreadylink/admin.myreadylink.com/public_html/dashboard/sparkpost/vendor/guzzlehttp/guzzle/src/Middleware.php(66): GuzzleHttp\Exception\RequestException::create(Object(GuzzleHttp\Psr7\Request), Object(GuzzleHttp\Psr7\Response))
+#1 /home/myreadylink/admin.myreadylink.com/public_html/dashboard/sparkpost/vendor/guzzlehttp/promises/src/Promise.php(203): GuzzleHttp\Middleware::GuzzleHttp\{closure}(Object(GuzzleHttp\Psr7\Response))
+#2 /home/myreadylink/admin.myreadylink.com/public_html/dashboard/sparkpost/vendor/guzzlehttp/promises/src/Promise.php(156): GuzzleHttp\Promise\Promise::callHandler(1, Object(GuzzleHttp\Psr7\Response), Array)
+#3 /home/myreadylin in /home/myreadylink/admin.myreadylink.com/public_html/dashboard/sparkpost/vendor/sparkpost/sparkpost/lib/SparkPost/SparkPostPromise.php on line 77
+[31-Jul-2018 18:02:00 UTC] PHP Fatal error:  Uncaught GuzzleHttp\Exception\ClientException: Client error: `POST https://api.sparkpost.com/api/v1/transmissions/` resulted in a `401 Unauthorized` response:
+{"errors": [ {"message": "Unauthorized."} ]}
+
+ in /home/myreadylink/admin.myreadylink.com/public_html/dashboard/sparkpost/vendor/guzzlehttp/guzzle/src/Exception/RequestException.php:113
+Stack trace:
+#0 /home/myreadylink/admin.myreadylink.com/public_html/dashboard/sparkpost/vendor/guzzlehttp/guzzle/src/Middleware.php(66): GuzzleHttp\Exception\RequestException::create(Object(GuzzleHttp\Psr7\Request), Object(GuzzleHttp\Psr7\Response))
+#1 /home/myreadylink/admin.myreadylink.com/public_html/dashboard/sparkpost/vendor/guzzlehttp/promises/src/Promise.php(203): GuzzleHttp\Middleware::GuzzleHttp\{closure}(Object(GuzzleHttp\Psr7\Response))
+#2 /home/myreadylink/admin.myreadylink.com/public_html/dashboard/sparkpost/vendor/guzzlehttp/promises/src/Promise.php(156): GuzzleHttp\Promise\Promise::callHandler(1, Object(GuzzleHttp\Psr7\Response), Array)
+#3 /home/myreadylin in /home/myreadylink/admin.myreadylink.com/public_html/dashboard/sparkpost/vendor/sparkpost/sparkpost/lib/SparkPost/SparkPostPromise.php on line 77
+[31-Jul-2018 18:02:45 UTC] PHP Fatal error:  Uncaught GuzzleHttp\Exception\ClientException: Client error: `POST https://api.sparkpost.com/api/v1/transmissions/` resulted in a `401 Unauthorized` response:
+{"errors": [ {"message": "Unauthorized."} ]}
+
+ in /home/myreadylink/admin.myreadylink.com/public_html/dashboard/sparkpost/vendor/guzzlehttp/guzzle/src/Exception/RequestException.php:113
+Stack trace:
+#0 /home/myreadylink/admin.myreadylink.com/public_html/dashboard/sparkpost/vendor/guzzlehttp/guzzle/src/Middleware.php(66): GuzzleHttp\Exception\RequestException::create(Object(GuzzleHttp\Psr7\Request), Object(GuzzleHttp\Psr7\Response))
+#1 /home/myreadylink/admin.myreadylink.com/public_html/dashboard/sparkpost/vendor/guzzlehttp/promises/src/Promise.php(203): GuzzleHttp\Middleware::GuzzleHttp\{closure}(Object(GuzzleHttp\Psr7\Response))
+#2 /home/myreadylink/admin.myreadylink.com/public_html/dashboard/sparkpost/vendor/guzzlehttp/promises/src/Promise.php(156): GuzzleHttp\Promise\Promise::callHandler(1, Object(GuzzleHttp\Psr7\Response), Array)
+#3 /home/myreadylin in /home/myreadylink/admin.myreadylink.com/public_html/dashboard/sparkpost/vendor/sparkpost/sparkpost/lib/SparkPost/SparkPostPromise.php on line 77
+[31-Jul-2018 18:06:55 UTC] PHP Fatal error:  Uncaught GuzzleHttp\Exception\ClientException: Client error: `POST https://api.sparkpost.com/api/v1/transmissions/` resulted in a `401 Unauthorized` response:
+{"errors": [ {"message": "Unauthorized."} ]}
+
+ in /home/myreadylink/admin.myreadylink.com/public_html/dashboard/sparkpost/vendor/guzzlehttp/guzzle/src/Exception/RequestException.php:113
+Stack trace:
+#0 /home/myreadylink/admin.myreadylink.com/public_html/dashboard/sparkpost/vendor/guzzlehttp/guzzle/src/Middleware.php(66): GuzzleHttp\Exception\RequestException::create(Object(GuzzleHttp\Psr7\Request), Object(GuzzleHttp\Psr7\Response))
+#1 /home/myreadylink/admin.myreadylink.com/public_html/dashboard/sparkpost/vendor/guzzlehttp/promises/src/Promise.php(203): GuzzleHttp\Middleware::GuzzleHttp\{closure}(Object(GuzzleHttp\Psr7\Response))
+#2 /home/myreadylink/admin.myreadylink.com/public_html/dashboard/sparkpost/vendor/guzzlehttp/promises/src/Promise.php(156): GuzzleHttp\Promise\Promise::callHandler(1, Object(GuzzleHttp\Psr7\Response), Array)
+#3 /home/myreadylin in /home/myreadylink/admin.myreadylink.com/public_html/dashboard/sparkpost/vendor/sparkpost/sparkpost/lib/SparkPost/SparkPostPromise.php on line 77
+[31-Jul-2018 18:10:48 UTC] PHP Fatal error:  Uncaught GuzzleHttp\Exception\ClientException: Client error: `POST https://api.sparkpost.com/api/v1/transmissions/` resulted in a `401 Unauthorized` response:
+{"errors": [ {"message": "Unauthorized."} ]}
+
+ in /home/myreadylink/admin.myreadylink.com/public_html/dashboard/sparkpost/vendor/guzzlehttp/guzzle/src/Exception/RequestException.php:113
+Stack trace:
+#0 /home/myreadylink/admin.myreadylink.com/public_html/dashboard/sparkpost/vendor/guzzlehttp/guzzle/src/Middleware.php(66): GuzzleHttp\Exception\RequestException::create(Object(GuzzleHttp\Psr7\Request), Object(GuzzleHttp\Psr7\Response))
+#1 /home/myreadylink/admin.myreadylink.com/public_html/dashboard/sparkpost/vendor/guzzlehttp/promises/src/Promise.php(203): GuzzleHttp\Middleware::GuzzleHttp\{closure}(Object(GuzzleHttp\Psr7\Response))
+#2 /home/myreadylink/admin.myreadylink.com/public_html/dashboard/sparkpost/vendor/guzzlehttp/promises/src/Promise.php(156): GuzzleHttp\Promise\Promise::callHandler(1, Object(GuzzleHttp\Psr7\Response), Array)
+#3 /home/myreadylin in /home/myreadylink/admin.myreadylink.com/public_html/dashboard/sparkpost/vendor/sparkpost/sparkpost/lib/SparkPost/SparkPostPromise.php on line 77
+[31-Jul-2018 18:11:03 UTC] PHP Fatal error:  Uncaught GuzzleHttp\Exception\ClientException: Client error: `POST https://api.sparkpost.com/api/v1/transmissions/` resulted in a `401 Unauthorized` response:
+{"errors": [ {"message": "Unauthorized."} ]}
+
+ in /home/myreadylink/admin.myreadylink.com/public_html/dashboard/sparkpost/vendor/guzzlehttp/guzzle/src/Exception/RequestException.php:113
+Stack trace:
+#0 /home/myreadylink/admin.myreadylink.com/public_html/dashboard/sparkpost/vendor/guzzlehttp/guzzle/src/Middleware.php(66): GuzzleHttp\Exception\RequestException::create(Object(GuzzleHttp\Psr7\Request), Object(GuzzleHttp\Psr7\Response))
+#1 /home/myreadylink/admin.myreadylink.com/public_html/dashboard/sparkpost/vendor/guzzlehttp/promises/src/Promise.php(203): GuzzleHttp\Middleware::GuzzleHttp\{closure}(Object(GuzzleHttp\Psr7\Response))
+#2 /home/myreadylink/admin.myreadylink.com/public_html/dashboard/sparkpost/vendor/guzzlehttp/promises/src/Promise.php(156): GuzzleHttp\Promise\Promise::callHandler(1, Object(GuzzleHttp\Psr7\Response), Array)
+#3 /home/myreadylin in /home/myreadylink/admin.myreadylink.com/public_html/dashboard/sparkpost/vendor/sparkpost/sparkpost/lib/SparkPost/SparkPostPromise.php on line 77
+[31-Jul-2018 18:11:22 UTC] PHP Fatal error:  Uncaught GuzzleHttp\Exception\ClientException: Client error: `POST https://api.sparkpost.com/api/v1/transmissions/` resulted in a `401 Unauthorized` response:
+{"errors": [ {"message": "Unauthorized."} ]}
+
+ in /home/myreadylink/admin.myreadylink.com/public_html/dashboard/sparkpost/vendor/guzzlehttp/guzzle/src/Exception/RequestException.php:113
+Stack trace:
+#0 /home/myreadylink/admin.myreadylink.com/public_html/dashboard/sparkpost/vendor/guzzlehttp/guzzle/src/Middleware.php(66): GuzzleHttp\Exception\RequestException::create(Object(GuzzleHttp\Psr7\Request), Object(GuzzleHttp\Psr7\Response))
+#1 /home/myreadylink/admin.myreadylink.com/public_html/dashboard/sparkpost/vendor/guzzlehttp/promises/src/Promise.php(203): GuzzleHttp\Middleware::GuzzleHttp\{closure}(Object(GuzzleHttp\Psr7\Response))
+#2 /home/myreadylink/admin.myreadylink.com/public_html/dashboard/sparkpost/vendor/guzzlehttp/promises/src/Promise.php(156): GuzzleHttp\Promise\Promise::callHandler(1, Object(GuzzleHttp\Psr7\Response), Array)
+#3 /home/myreadylin in /home/myreadylink/admin.myreadylink.com/public_html/dashboard/sparkpost/vendor/sparkpost/sparkpost/lib/SparkPost/SparkPostPromise.php on line 77
+[31-Jul-2018 18:12:34 UTC] PHP Fatal error:  Uncaught GuzzleHttp\Exception\ClientException: Client error: `POST https://api.sparkpost.com/api/v1/transmissions/` resulted in a `401 Unauthorized` response:
+{"errors": [ {"message": "Unauthorized."} ]}
+
+ in /home/myreadylink/admin.myreadylink.com/public_html/dashboard/sparkpost/vendor/guzzlehttp/guzzle/src/Exception/RequestException.php:113
+Stack trace:
+#0 /home/myreadylink/admin.myreadylink.com/public_html/dashboard/sparkpost/vendor/guzzlehttp/guzzle/src/Middleware.php(66): GuzzleHttp\Exception\RequestException::create(Object(GuzzleHttp\Psr7\Request), Object(GuzzleHttp\Psr7\Response))
+#1 /home/myreadylink/admin.myreadylink.com/public_html/dashboard/sparkpost/vendor/guzzlehttp/promises/src/Promise.php(203): GuzzleHttp\Middleware::GuzzleHttp\{closure}(Object(GuzzleHttp\Psr7\Response))
+#2 /home/myreadylink/admin.myreadylink.com/public_html/dashboard/sparkpost/vendor/guzzlehttp/promises/src/Promise.php(156): GuzzleHttp\Promise\Promise::callHandler(1, Object(GuzzleHttp\Psr7\Response), Array)
+#3 /home/myreadylin in /home/myreadylink/admin.myreadylink.com/public_html/dashboard/sparkpost/vendor/sparkpost/sparkpost/lib/SparkPost/SparkPostPromise.php on line 77
+[31-Jul-2018 18:12:36 UTC] PHP Fatal error:  Uncaught GuzzleHttp\Exception\ClientException: Client error: `POST https://api.sparkpost.com/api/v1/transmissions/` resulted in a `401 Unauthorized` response:
+{"errors": [ {"message": "Unauthorized."} ]}
+
+ in /home/myreadylink/admin.myreadylink.com/public_html/dashboard/sparkpost/vendor/guzzlehttp/guzzle/src/Exception/RequestException.php:113
+Stack trace:
+#0 /home/myreadylink/admin.myreadylink.com/public_html/dashboard/sparkpost/vendor/guzzlehttp/guzzle/src/Middleware.php(66): GuzzleHttp\Exception\RequestException::create(Object(GuzzleHttp\Psr7\Request), Object(GuzzleHttp\Psr7\Response))
+#1 /home/myreadylink/admin.myreadylink.com/public_html/dashboard/sparkpost/vendor/guzzlehttp/promises/src/Promise.php(203): GuzzleHttp\Middleware::GuzzleHttp\{closure}(Object(GuzzleHttp\Psr7\Response))
+#2 /home/myreadylink/admin.myreadylink.com/public_html/dashboard/sparkpost/vendor/guzzlehttp/promises/src/Promise.php(156): GuzzleHttp\Promise\Promise::callHandler(1, Object(GuzzleHttp\Psr7\Response), Array)
+#3 /home/myreadylin in /home/myreadylink/admin.myreadylink.com/public_html/dashboard/sparkpost/vendor/sparkpost/sparkpost/lib/SparkPost/SparkPostPromise.php on line 77
+[31-Jul-2018 18:13:20 UTC] PHP Fatal error:  Uncaught GuzzleHttp\Exception\ClientException: Client error: `POST https://api.sparkpost.com/api/v1/transmissions/` resulted in a `400 Bad Request` response:
+{ "errors": [ { "message": "Invalid domain", "description": "Unconfigured Sending Domain <triplestrength.com> ", "code": (truncated...)
+ in /home/myreadylink/admin.myreadylink.com/public_html/dashboard/sparkpost/vendor/guzzlehttp/guzzle/src/Exception/RequestException.php:113
+Stack trace:
+#0 /home/myreadylink/admin.myreadylink.com/public_html/dashboard/sparkpost/vendor/guzzlehttp/guzzle/src/Middleware.php(66): GuzzleHttp\Exception\RequestException::create(Object(GuzzleHttp\Psr7\Request), Object(GuzzleHttp\Psr7\Response))
+#1 /home/myreadylink/admin.myreadylink.com/public_html/dashboard/sparkpost/vendor/guzzlehttp/promises/src/Promise.php(203): GuzzleHttp\Middleware::GuzzleHttp\{closure}(Object(GuzzleHttp\Psr7\Response))
+#2 /home/myreadylink/admin.myreadylink.com/public_html/dashboard/sparkpost/vendor/guzzlehttp/promises/src/Promise.php(156): GuzzleHttp\Pro in /home/myreadylink/admin.myreadylink.com/public_html/dashboard/sparkpost/vendor/sparkpost/sparkpost/lib/SparkPost/SparkPost.php on line 103
+[31-Jul-2018 18:13:53 UTC] PHP Fatal error:  Uncaught Error: Class 'Http\Adapter\Guzzle6\Client' not found in /home/myreadylink/admin.myreadylink.com/public_html/dashboard/sparkpost/test-email.php:35
+Stack trace:
+#0 {main}
+  thrown in /home/myreadylink/admin.myreadylink.com/public_html/dashboard/sparkpost/test-email.php on line 35
+[31-Jul-2018 18:14:44 UTC] PHP Fatal error:  Cannot use SparkPost\SparkPost as SparkPost because the name is already in use in /home/myreadylink/admin.myreadylink.com/public_html/dashboard/sparkpost/test-email.php on line 30
+[31-Jul-2018 18:16:17 UTC] PHP Fatal error:  Uncaught Error: Class 'GuzzleAdapter' not found in /home/myreadylink/admin.myreadylink.com/public_html/dashboard/sparkpost/test-email.php:34
+Stack trace:
+#0 {main}
+  thrown in /home/myreadylink/admin.myreadylink.com/public_html/dashboard/sparkpost/test-email.php on line 34
+[31-Jul-2018 18:16:18 UTC] PHP Fatal error:  Uncaught Error: Class 'GuzzleAdapter' not found in /home/myreadylink/admin.myreadylink.com/public_html/dashboard/sparkpost/test-email.php:34
+Stack trace:
+#0 {main}
+  thrown in /home/myreadylink/admin.myreadylink.com/public_html/dashboard/sparkpost/test-email.php on line 34
+[31-Jul-2018 18:18:32 UTC] PHP Fatal error:  Uncaught GuzzleHttp\Exception\ClientException: Client error: `POST https://api.sparkpost.com/api/v1/transmissions/` resulted in a `400 Bad Request` response:
+{ "errors": [ { "message": "Invalid domain", "description": "Unconfigured Sending Domain <email.com> ", "code": "7001" } (truncated...)
+ in /home/myreadylink/admin.myreadylink.com/public_html/dashboard/sparkpost/vendor/guzzlehttp/guzzle/src/Exception/RequestException.php:113
+Stack trace:
+#0 /home/myreadylink/admin.myreadylink.com/public_html/dashboard/sparkpost/vendor/guzzlehttp/guzzle/src/Middleware.php(66): GuzzleHttp\Exception\RequestException::create(Object(GuzzleHttp\Psr7\Request), Object(GuzzleHttp\Psr7\Response))
+#1 /home/myreadylink/admin.myreadylink.com/public_html/dashboard/sparkpost/vendor/guzzlehttp/promises/src/Promise.php(203): GuzzleHttp\Middleware::GuzzleHttp\{closure}(Object(GuzzleHttp\Psr7\Response))
+#2 /home/myreadylink/admin.myreadylink.com/public_html/dashboard/sparkpost/vendor/guzzlehttp/promises/src/Promise.php(156): GuzzleHttp\Pro in /home/myreadylink/admin.myreadylink.com/public_html/dashboard/sparkpost/vendor/sparkpost/sparkpost/lib/SparkPost/SparkPostPromise.php on line 77
+[31-Jul-2018 18:18:46 UTC] PHP Fatal error:  Uncaught Error: Class 'Http\Adapter\Guzzle6\Client' not found in /home/myreadylink/admin.myreadylink.com/public_html/dashboard/sparkpost/test-email.php:36
+Stack trace:
+#0 {main}
+  thrown in /home/myreadylink/admin.myreadylink.com/public_html/dashboard/sparkpost/test-email.php on line 36
+[31-Jul-2018 18:19:10 UTC] PHP Fatal error:  Uncaught Error: Class 'GuzzleAdapter' not found in /home/myreadylink/admin.myreadylink.com/public_html/dashboard/sparkpost/test-email.php:35
+Stack trace:
+#0 {main}
+  thrown in /home/myreadylink/admin.myreadylink.com/public_html/dashboard/sparkpost/test-email.php on line 35
+[31-Jul-2018 18:23:03 UTC] PHP Fatal error:  Uncaught GuzzleHttp\Exception\ClientException: Client error: `POST https://api.sparkpost.com/api/v1/transmissions/` resulted in a `400 Bad Request` response:
+{ "errors": [ { "message": "Invalid domain", "description": "Unconfigured Sending Domain <email.com> ", "code": "7001" } (truncated...)
+ in /home/myreadylink/admin.myreadylink.com/public_html/dashboard/sparkpost/vendor/guzzlehttp/guzzle/src/Exception/RequestException.php:113
+Stack trace:
+#0 /home/myreadylink/admin.myreadylink.com/public_html/dashboard/sparkpost/vendor/guzzlehttp/guzzle/src/Middleware.php(66): GuzzleHttp\Exception\RequestException::create(Object(GuzzleHttp\Psr7\Request), Object(GuzzleHttp\Psr7\Response))
+#1 /home/myreadylink/admin.myreadylink.com/public_html/dashboard/sparkpost/vendor/guzzlehttp/promises/src/Promise.php(203): GuzzleHttp\Middleware::GuzzleHttp\{closure}(Object(GuzzleHttp\Psr7\Response))
+#2 /home/myreadylink/admin.myreadylink.com/public_html/dashboard/sparkpost/vendor/guzzlehttp/promises/src/Promise.php(156): GuzzleHttp\Pro in /home/myreadylink/admin.myreadylink.com/public_html/dashboard/sparkpost/vendor/sparkpost/sparkpost/lib/SparkPost/SparkPostPromise.php on line 77
+[31-Jul-2018 18:23:42 UTC] PHP Fatal error:  Uncaught GuzzleHttp\Exception\ClientException: Client error: `POST https://api.sparkpost.com/api/v1/transmissions/` resulted in a `400 Bad Request` response:
+{ "errors": [ { "message": "Invalid domain", "description": "Unconfigured Sending Domain <email.com> ", "code": "7001" } (truncated...)
+ in /home/myreadylink/admin.myreadylink.com/public_html/dashboard/sparkpost/vendor/guzzlehttp/guzzle/src/Exception/RequestException.php:113
+Stack trace:
+#0 /home/myreadylink/admin.myreadylink.com/public_html/dashboard/sparkpost/vendor/guzzlehttp/guzzle/src/Middleware.php(66): GuzzleHttp\Exception\RequestException::create(Object(GuzzleHttp\Psr7\Request), Object(GuzzleHttp\Psr7\Response))
+#1 /home/myreadylink/admin.myreadylink.com/public_html/dashboard/sparkpost/vendor/guzzlehttp/promises/src/Promise.php(203): GuzzleHttp\Middleware::GuzzleHttp\{closure}(Object(GuzzleHttp\Psr7\Response))
+#2 /home/myreadylink/admin.myreadylink.com/public_html/dashboard/sparkpost/vendor/guzzlehttp/promises/src/Promise.php(156): GuzzleHttp\Pro in /home/myreadylink/admin.myreadylink.com/public_html/dashboard/sparkpost/vendor/sparkpost/sparkpost/lib/SparkPost/SparkPostPromise.php on line 77
+[31-Jul-2018 18:23:43 UTC] PHP Fatal error:  Uncaught GuzzleHttp\Exception\ClientException: Client error: `POST https://api.sparkpost.com/api/v1/transmissions/` resulted in a `400 Bad Request` response:
+{ "errors": [ { "message": "Invalid domain", "description": "Unconfigured Sending Domain <email.com> ", "code": "7001" } (truncated...)
+ in /home/myreadylink/admin.myreadylink.com/public_html/dashboard/sparkpost/vendor/guzzlehttp/guzzle/src/Exception/RequestException.php:113
+Stack trace:
+#0 /home/myreadylink/admin.myreadylink.com/public_html/dashboard/sparkpost/vendor/guzzlehttp/guzzle/src/Middleware.php(66): GuzzleHttp\Exception\RequestException::create(Object(GuzzleHttp\Psr7\Request), Object(GuzzleHttp\Psr7\Response))
+#1 /home/myreadylink/admin.myreadylink.com/public_html/dashboard/sparkpost/vendor/guzzlehttp/promises/src/Promise.php(203): GuzzleHttp\Middleware::GuzzleHttp\{closure}(Object(GuzzleHttp\Psr7\Response))
+#2 /home/myreadylink/admin.myreadylink.com/public_html/dashboard/sparkpost/vendor/guzzlehttp/promises/src/Promise.php(156): GuzzleHttp\Pro in /home/myreadylink/admin.myreadylink.com/public_html/dashboard/sparkpost/vendor/sparkpost/sparkpost/lib/SparkPost/SparkPostPromise.php on line 77
+[31-Jul-2018 18:24:03 UTC] PHP Fatal error:  Uncaught GuzzleHttp\Exception\ClientException: Client error: `POST https://api.sparkpost.com/api/v1/transmissions/` resulted in a `400 Bad Request` response:
+{ "errors": [ { "message": "Invalid domain", "description": "Unconfigured Sending Domain <email.com> ", "code": "7001" } (truncated...)
+ in /home/myreadylink/admin.myreadylink.com/public_html/dashboard/sparkpost/vendor/guzzlehttp/guzzle/src/Exception/RequestException.php:113
+Stack trace:
+#0 /home/myreadylink/admin.myreadylink.com/public_html/dashboard/sparkpost/vendor/guzzlehttp/guzzle/src/Middleware.php(66): GuzzleHttp\Exception\RequestException::create(Object(GuzzleHttp\Psr7\Request), Object(GuzzleHttp\Psr7\Response))
+#1 /home/myreadylink/admin.myreadylink.com/public_html/dashboard/sparkpost/vendor/guzzlehttp/promises/src/Promise.php(203): GuzzleHttp\Middleware::GuzzleHttp\{closure}(Object(GuzzleHttp\Psr7\Response))
+#2 /home/myreadylink/admin.myreadylink.com/public_html/dashboard/sparkpost/vendor/guzzlehttp/promises/src/Promise.php(156): GuzzleHttp\Pro in /home/myreadylink/admin.myreadylink.com/public_html/dashboard/sparkpost/vendor/sparkpost/sparkpost/lib/SparkPost/SparkPostPromise.php on line 77
+[31-Jul-2018 18:24:24 UTC] PHP Fatal error:  Uncaught GuzzleHttp\Exception\ClientException: Client error: `POST https://api.sparkpost.com/api/v1/transmissions/` resulted in a `400 Bad Request` response:
+{ "errors": [ { "message": "Invalid domain", "description": "Unconfigured Sending Domain <email.com> ", "code": "7001" } (truncated...)
+ in /home/myreadylink/admin.myreadylink.com/public_html/dashboard/sparkpost/vendor/guzzlehttp/guzzle/src/Exception/RequestException.php:113
+Stack trace:
+#0 /home/myreadylink/admin.myreadylink.com/public_html/dashboard/sparkpost/vendor/guzzlehttp/guzzle/src/Middleware.php(66): GuzzleHttp\Exception\RequestException::create(Object(GuzzleHttp\Psr7\Request), Object(GuzzleHttp\Psr7\Response))
+#1 /home/myreadylink/admin.myreadylink.com/public_html/dashboard/sparkpost/vendor/guzzlehttp/promises/src/Promise.php(203): GuzzleHttp\Middleware::GuzzleHttp\{closure}(Object(GuzzleHttp\Psr7\Response))
+#2 /home/myreadylink/admin.myreadylink.com/public_html/dashboard/sparkpost/vendor/guzzlehttp/promises/src/Promise.php(156): GuzzleHttp\Pro in /home/myreadylink/admin.myreadylink.com/public_html/dashboard/sparkpost/vendor/sparkpost/sparkpost/lib/SparkPost/SparkPostPromise.php on line 77
+[31-Jul-2018 18:24:26 UTC] PHP Fatal error:  Uncaught GuzzleHttp\Exception\ClientException: Client error: `POST https://api.sparkpost.com/api/v1/transmissions/` resulted in a `400 Bad Request` response:
+{ "errors": [ { "message": "Invalid domain", "description": "Unconfigured Sending Domain <email.com> ", "code": "7001" } (truncated...)
+ in /home/myreadylink/admin.myreadylink.com/public_html/dashboard/sparkpost/vendor/guzzlehttp/guzzle/src/Exception/RequestException.php:113
+Stack trace:
+#0 /home/myreadylink/admin.myreadylink.com/public_html/dashboard/sparkpost/vendor/guzzlehttp/guzzle/src/Middleware.php(66): GuzzleHttp\Exception\RequestException::create(Object(GuzzleHttp\Psr7\Request), Object(GuzzleHttp\Psr7\Response))
+#1 /home/myreadylink/admin.myreadylink.com/public_html/dashboard/sparkpost/vendor/guzzlehttp/promises/src/Promise.php(203): GuzzleHttp\Middleware::GuzzleHttp\{closure}(Object(GuzzleHttp\Psr7\Response))
+#2 /home/myreadylink/admin.myreadylink.com/public_html/dashboard/sparkpost/vendor/guzzlehttp/promises/src/Promise.php(156): GuzzleHttp\Pro in /home/myreadylink/admin.myreadylink.com/public_html/dashboard/sparkpost/vendor/sparkpost/sparkpost/lib/SparkPost/SparkPostPromise.php on line 77
+[31-Jul-2018 18:26:21 UTC] PHP Fatal error:  Uncaught GuzzleHttp\Exception\ClientException: Client error: `POST https://api.sparkpost.com/api/v1/transmissions/` resulted in a `400 Bad Request` response:
+{ "errors": [ { "message": "Invalid domain", "description": "Unconfigured Sending Domain <emyreadylink.com> ", "code": " (truncated...)
+ in /home/myreadylink/admin.myreadylink.com/public_html/dashboard/sparkpost/vendor/guzzlehttp/guzzle/src/Exception/RequestException.php:113
+Stack trace:
+#0 /home/myreadylink/admin.myreadylink.com/public_html/dashboard/sparkpost/vendor/guzzlehttp/guzzle/src/Middleware.php(66): GuzzleHttp\Exception\RequestException::create(Object(GuzzleHttp\Psr7\Request), Object(GuzzleHttp\Psr7\Response))
+#1 /home/myreadylink/admin.myreadylink.com/public_html/dashboard/sparkpost/vendor/guzzlehttp/promises/src/Promise.php(203): GuzzleHttp\Middleware::GuzzleHttp\{closure}(Object(GuzzleHttp\Psr7\Response))
+#2 /home/myreadylink/admin.myreadylink.com/public_html/dashboard/sparkpost/vendor/guzzlehttp/promises/src/Promise.php(156): GuzzleHttp\Pro in /home/myreadylink/admin.myreadylink.com/public_html/dashboard/sparkpost/vendor/sparkpost/sparkpost/lib/SparkPost/SparkPostPromise.php on line 77
+[31-Jul-2018 18:26:40 UTC] PHP Fatal error:  Uncaught GuzzleHttp\Exception\ClientException: Client error: `POST https://api.sparkpost.com/api/v1/transmissions/` resulted in a `400 Bad Request` response:
+{ "errors": [ { "message": "Invalid domain", "description": "Unconfigured Sending Domain <myreadylink.com> ", "code": "7 (truncated...)
+ in /home/myreadylink/admin.myreadylink.com/public_html/dashboard/sparkpost/vendor/guzzlehttp/guzzle/src/Exception/RequestException.php:113
+Stack trace:
+#0 /home/myreadylink/admin.myreadylink.com/public_html/dashboard/sparkpost/vendor/guzzlehttp/guzzle/src/Middleware.php(66): GuzzleHttp\Exception\RequestException::create(Object(GuzzleHttp\Psr7\Request), Object(GuzzleHttp\Psr7\Response))
+#1 /home/myreadylink/admin.myreadylink.com/public_html/dashboard/sparkpost/vendor/guzzlehttp/promises/src/Promise.php(203): GuzzleHttp\Middleware::GuzzleHttp\{closure}(Object(GuzzleHttp\Psr7\Response))
+#2 /home/myreadylink/admin.myreadylink.com/public_html/dashboard/sparkpost/vendor/guzzlehttp/promises/src/Promise.php(156): GuzzleHttp\Pro in /home/myreadylink/admin.myreadylink.com/public_html/dashboard/sparkpost/vendor/sparkpost/sparkpost/lib/SparkPost/SparkPostPromise.php on line 77
+[31-Jul-2018 18:26:43 UTC] PHP Fatal error:  Uncaught GuzzleHttp\Exception\ClientException: Client error: `POST https://api.sparkpost.com/api/v1/transmissions/` resulted in a `400 Bad Request` response:
+{ "errors": [ { "message": "Invalid domain", "description": "Unconfigured Sending Domain <myreadylink.com> ", "code": "7 (truncated...)
+ in /home/myreadylink/admin.myreadylink.com/public_html/dashboard/sparkpost/vendor/guzzlehttp/guzzle/src/Exception/RequestException.php:113
+Stack trace:
+#0 /home/myreadylink/admin.myreadylink.com/public_html/dashboard/sparkpost/vendor/guzzlehttp/guzzle/src/Middleware.php(66): GuzzleHttp\Exception\RequestException::create(Object(GuzzleHttp\Psr7\Request), Object(GuzzleHttp\Psr7\Response))
+#1 /home/myreadylink/admin.myreadylink.com/public_html/dashboard/sparkpost/vendor/guzzlehttp/promises/src/Promise.php(203): GuzzleHttp\Middleware::GuzzleHttp\{closure}(Object(GuzzleHttp\Psr7\Response))
+#2 /home/myreadylink/admin.myreadylink.com/public_html/dashboard/sparkpost/vendor/guzzlehttp/promises/src/Promise.php(156): GuzzleHttp\Pro in /home/myreadylink/admin.myreadylink.com/public_html/dashboard/sparkpost/vendor/sparkpost/sparkpost/lib/SparkPost/SparkPostPromise.php on line 77
+[31-Jul-2018 18:30:36 UTC] PHP Fatal error:  Uncaught GuzzleHttp\Exception\ClientException: Client error: `POST https://api.sparkpost.com/api/v1/transmissions/` resulted in a `400 Bad Request` response:
+{ "errors": [ { "message": "Invalid domain", "description": "Unconfigured Sending Domain <myreadylink.com> ", "code": "7 (truncated...)
+ in /home/myreadylink/admin.myreadylink.com/public_html/dashboard/sparkpost/vendor/guzzlehttp/guzzle/src/Exception/RequestException.php:113
+Stack trace:
+#0 /home/myreadylink/admin.myreadylink.com/public_html/dashboard/sparkpost/vendor/guzzlehttp/guzzle/src/Middleware.php(66): GuzzleHttp\Exception\RequestException::create(Object(GuzzleHttp\Psr7\Request), Object(GuzzleHttp\Psr7\Response))
+#1 /home/myreadylink/admin.myreadylink.com/public_html/dashboard/sparkpost/vendor/guzzlehttp/promises/src/Promise.php(203): GuzzleHttp\Middleware::GuzzleHttp\{closure}(Object(GuzzleHttp\Psr7\Response))
+#2 /home/myreadylink/admin.myreadylink.com/public_html/dashboard/sparkpost/vendor/guzzlehttp/promises/src/Promise.php(156): GuzzleHttp\Pro in /home/myreadylink/admin.myreadylink.com/public_html/dashboard/sparkpost/vendor/sparkpost/sparkpost/lib/SparkPost/SparkPostPromise.php on line 77
+[31-Jul-2018 18:30:38 UTC] PHP Fatal error:  Uncaught GuzzleHttp\Exception\ClientException: Client error: `POST https://api.sparkpost.com/api/v1/transmissions/` resulted in a `400 Bad Request` response:
+{ "errors": [ { "message": "Invalid domain", "description": "Unconfigured Sending Domain <myreadylink.com> ", "code": "7 (truncated...)
+ in /home/myreadylink/admin.myreadylink.com/public_html/dashboard/sparkpost/vendor/guzzlehttp/guzzle/src/Exception/RequestException.php:113
+Stack trace:
+#0 /home/myreadylink/admin.myreadylink.com/public_html/dashboard/sparkpost/vendor/guzzlehttp/guzzle/src/Middleware.php(66): GuzzleHttp\Exception\RequestException::create(Object(GuzzleHttp\Psr7\Request), Object(GuzzleHttp\Psr7\Response))
+#1 /home/myreadylink/admin.myreadylink.com/public_html/dashboard/sparkpost/vendor/guzzlehttp/promises/src/Promise.php(203): GuzzleHttp\Middleware::GuzzleHttp\{closure}(Object(GuzzleHttp\Psr7\Response))
+#2 /home/myreadylink/admin.myreadylink.com/public_html/dashboard/sparkpost/vendor/guzzlehttp/promises/src/Promise.php(156): GuzzleHttp\Pro in /home/myreadylink/admin.myreadylink.com/public_html/dashboard/sparkpost/vendor/sparkpost/sparkpost/lib/SparkPost/SparkPostPromise.php on line 77
+[31-Jul-2018 18:30:47 UTC] PHP Fatal error:  Uncaught GuzzleHttp\Exception\ClientException: Client error: `POST https://api.sparkpost.com/api/v1/transmissions/` resulted in a `400 Bad Request` response:
+{ "errors": [ { "message": "Invalid domain", "description": "Unconfigured Sending Domain <myreadylink.com> ", "code": "7 (truncated...)
+ in /home/myreadylink/admin.myreadylink.com/public_html/dashboard/sparkpost/vendor/guzzlehttp/guzzle/src/Exception/RequestException.php:113
+Stack trace:
+#0 /home/myreadylink/admin.myreadylink.com/public_html/dashboard/sparkpost/vendor/guzzlehttp/guzzle/src/Middleware.php(66): GuzzleHttp\Exception\RequestException::create(Object(GuzzleHttp\Psr7\Request), Object(GuzzleHttp\Psr7\Response))
+#1 /home/myreadylink/admin.myreadylink.com/public_html/dashboard/sparkpost/vendor/guzzlehttp/promises/src/Promise.php(203): GuzzleHttp\Middleware::GuzzleHttp\{closure}(Object(GuzzleHttp\Psr7\Response))
+#2 /home/myreadylink/admin.myreadylink.com/public_html/dashboard/sparkpost/vendor/guzzlehttp/promises/src/Promise.php(156): GuzzleHttp\Pro in /home/myreadylink/admin.myreadylink.com/public_html/dashboard/sparkpost/vendor/sparkpost/sparkpost/lib/SparkPost/SparkPostPromise.php on line 77
+[31-Jul-2018 18:31:00 UTC] PHP Fatal error:  Uncaught GuzzleHttp\Exception\ClientException: Client error: `POST https://api.sparkpost.com/api/v1/transmissions/` resulted in a `400 Bad Request` response:
+{ "errors": [ { "message": "Invalid domain", "description": "Unconfigured Sending Domain <myreadylink.com> ", "code": "7 (truncated...)
+ in /home/myreadylink/admin.myreadylink.com/public_html/dashboard/sparkpost/vendor/guzzlehttp/guzzle/src/Exception/RequestException.php:113
+Stack trace:
+#0 /home/myreadylink/admin.myreadylink.com/public_html/dashboard/sparkpost/vendor/guzzlehttp/guzzle/src/Middleware.php(66): GuzzleHttp\Exception\RequestException::create(Object(GuzzleHttp\Psr7\Request), Object(GuzzleHttp\Psr7\Response))
+#1 /home/myreadylink/admin.myreadylink.com/public_html/dashboard/sparkpost/vendor/guzzlehttp/promises/src/Promise.php(203): GuzzleHttp\Middleware::GuzzleHttp\{closure}(Object(GuzzleHttp\Psr7\Response))
+#2 /home/myreadylink/admin.myreadylink.com/public_html/dashboard/sparkpost/vendor/guzzlehttp/promises/src/Promise.php(156): GuzzleHttp\Pro in /home/myreadylink/admin.myreadylink.com/public_html/dashboard/sparkpost/vendor/sparkpost/sparkpost/lib/SparkPost/SparkPostPromise.php on line 77
+[31-Jul-2018 18:31:01 UTC] PHP Fatal error:  Uncaught GuzzleHttp\Exception\ClientException: Client error: `POST https://api.sparkpost.com/api/v1/transmissions/` resulted in a `400 Bad Request` response:
+{ "errors": [ { "message": "Invalid domain", "description": "Unconfigured Sending Domain <myreadylink.com> ", "code": "7 (truncated...)
+ in /home/myreadylink/admin.myreadylink.com/public_html/dashboard/sparkpost/vendor/guzzlehttp/guzzle/src/Exception/RequestException.php:113
+Stack trace:
+#0 /home/myreadylink/admin.myreadylink.com/public_html/dashboard/sparkpost/vendor/guzzlehttp/guzzle/src/Middleware.php(66): GuzzleHttp\Exception\RequestException::create(Object(GuzzleHttp\Psr7\Request), Object(GuzzleHttp\Psr7\Response))
+#1 /home/myreadylink/admin.myreadylink.com/public_html/dashboard/sparkpost/vendor/guzzlehttp/promises/src/Promise.php(203): GuzzleHttp\Middleware::GuzzleHttp\{closure}(Object(GuzzleHttp\Psr7\Response))
+#2 /home/myreadylink/admin.myreadylink.com/public_html/dashboard/sparkpost/vendor/guzzlehttp/promises/src/Promise.php(156): GuzzleHttp\Pro in /home/myreadylink/admin.myreadylink.com/public_html/dashboard/sparkpost/vendor/sparkpost/sparkpost/lib/SparkPost/SparkPostPromise.php on line 77
+[31-Jul-2018 18:31:36 UTC] PHP Fatal error:  Uncaught GuzzleHttp\Exception\ClientException: Client error: `POST https://api.sparkpost.com/api/v1/transmissions/` resulted in a `400 Bad Request` response:
+{ "errors": [ { "message": "Invalid domain", "description": "Unconfigured Sending Domain <myreadylink.com> ", "code": "7 (truncated...)
+ in /home/myreadylink/admin.myreadylink.com/public_html/dashboard/sparkpost/vendor/guzzlehttp/guzzle/src/Exception/RequestException.php:113
+Stack trace:
+#0 /home/myreadylink/admin.myreadylink.com/public_html/dashboard/sparkpost/vendor/guzzlehttp/guzzle/src/Middleware.php(66): GuzzleHttp\Exception\RequestException::create(Object(GuzzleHttp\Psr7\Request), Object(GuzzleHttp\Psr7\Response))
+#1 /home/myreadylink/admin.myreadylink.com/public_html/dashboard/sparkpost/vendor/guzzlehttp/promises/src/Promise.php(203): GuzzleHttp\Middleware::GuzzleHttp\{closure}(Object(GuzzleHttp\Psr7\Response))
+#2 /home/myreadylink/admin.myreadylink.com/public_html/dashboard/sparkpost/vendor/guzzlehttp/promises/src/Promise.php(156): GuzzleHttp\Pro in /home/myreadylink/admin.myreadylink.com/public_html/dashboard/sparkpost/vendor/sparkpost/sparkpost/lib/SparkPost/SparkPostPromise.php on line 77
+[31-Jul-2018 18:31:55 UTC] PHP Fatal error:  Uncaught GuzzleHttp\Exception\ClientException: Client error: `POST https://api.sparkpost.com/api/v1/transmissions/` resulted in a `400 Bad Request` response:
+{ "errors": [ { "message": "Invalid domain", "description": "Unconfigured Sending Domain <myreadylink.com> ", "code": "7 (truncated...)
+ in /home/myreadylink/admin.myreadylink.com/public_html/dashboard/sparkpost/vendor/guzzlehttp/guzzle/src/Exception/RequestException.php:113
+Stack trace:
+#0 /home/myreadylink/admin.myreadylink.com/public_html/dashboard/sparkpost/vendor/guzzlehttp/guzzle/src/Middleware.php(66): GuzzleHttp\Exception\RequestException::create(Object(GuzzleHttp\Psr7\Request), Object(GuzzleHttp\Psr7\Response))
+#1 /home/myreadylink/admin.myreadylink.com/public_html/dashboard/sparkpost/vendor/guzzlehttp/promises/src/Promise.php(203): GuzzleHttp\Middleware::GuzzleHttp\{closure}(Object(GuzzleHttp\Psr7\Response))
+#2 /home/myreadylink/admin.myreadylink.com/public_html/dashboard/sparkpost/vendor/guzzlehttp/promises/src/Promise.php(156): GuzzleHttp\Pro in /home/myreadylink/admin.myreadylink.com/public_html/dashboard/sparkpost/vendor/sparkpost/sparkpost/lib/SparkPost/SparkPostPromise.php on line 77
+[31-Jul-2018 18:32:48 UTC] PHP Fatal error:  Uncaught GuzzleHttp\Exception\ClientException: Client error: `POST https://api.sparkpost.com/api/v1/transmissions/` resulted in a `400 Bad Request` response:
+{ "errors": [ { "message": "Invalid domain", "description": "Unconfigured Sending Domain <triplestrength.com> ", "code": (truncated...)
+ in /home/myreadylink/admin.myreadylink.com/public_html/dashboard/sparkpost/vendor/guzzlehttp/guzzle/src/Exception/RequestException.php:113
+Stack trace:
+#0 /home/myreadylink/admin.myreadylink.com/public_html/dashboard/sparkpost/vendor/guzzlehttp/guzzle/src/Middleware.php(66): GuzzleHttp\Exception\RequestException::create(Object(GuzzleHttp\Psr7\Request), Object(GuzzleHttp\Psr7\Response))
+#1 /home/myreadylink/admin.myreadylink.com/public_html/dashboard/sparkpost/vendor/guzzlehttp/promises/src/Promise.php(203): GuzzleHttp\Middleware::GuzzleHttp\{closure}(Object(GuzzleHttp\Psr7\Response))
+#2 /home/myreadylink/admin.myreadylink.com/public_html/dashboard/sparkpost/vendor/guzzlehttp/promises/src/Promise.php(156): GuzzleHttp\Pro in /home/myreadylink/admin.myreadylink.com/public_html/dashboard/sparkpost/vendor/sparkpost/sparkpost/lib/SparkPost/SparkPost.php on line 103
+[31-Jul-2018 18:34:00 UTC] PHP Fatal error:  Uncaught Error: Class 'Http\Adapter\Guzzle6\Client' not found in /home/myreadylink/admin.myreadylink.com/public_html/dashboard/sparkpost/test-email.php:33
+Stack trace:
+#0 {main}
+  thrown in /home/myreadylink/admin.myreadylink.com/public_html/dashboard/sparkpost/test-email.php on line 33
+[31-Jul-2018 18:34:03 UTC] PHP Fatal error:  Uncaught Error: Class 'Http\Adapter\Guzzle6\Client' not found in /home/myreadylink/admin.myreadylink.com/public_html/dashboard/sparkpost/test-email.php:33
+Stack trace:
+#0 {main}
+  thrown in /home/myreadylink/admin.myreadylink.com/public_html/dashboard/sparkpost/test-email.php on line 33
+[31-Jul-2018 18:34:04 UTC] PHP Fatal error:  Uncaught Error: Class 'Http\Adapter\Guzzle6\Client' not found in /home/myreadylink/admin.myreadylink.com/public_html/dashboard/sparkpost/test-email.php:33
+Stack trace:
+#0 {main}
+  thrown in /home/myreadylink/admin.myreadylink.com/public_html/dashboard/sparkpost/test-email.php on line 33
+[31-Jul-2018 18:34:14 UTC] PHP Fatal error:  Uncaught GuzzleHttp\Exception\ClientException: Client error: `POST https://api.sparkpost.com/api/v1/transmissions/` resulted in a `400 Bad Request` response:
+{ "errors": [ { "message": "Invalid domain", "description": "Unconfigured Sending Domain <myreadylink.com> ", "code": "7 (truncated...)
+ in /home/myreadylink/admin.myreadylink.com/public_html/dashboard/sparkpost/vendor/guzzlehttp/guzzle/src/Exception/RequestException.php:113
+Stack trace:
+#0 /home/myreadylink/admin.myreadylink.com/public_html/dashboard/sparkpost/vendor/guzzlehttp/guzzle/src/Middleware.php(66): GuzzleHttp\Exception\RequestException::create(Object(GuzzleHttp\Psr7\Request), Object(GuzzleHttp\Psr7\Response))
+#1 /home/myreadylink/admin.myreadylink.com/public_html/dashboard/sparkpost/vendor/guzzlehttp/promises/src/Promise.php(203): GuzzleHttp\Middleware::GuzzleHttp\{closure}(Object(GuzzleHttp\Psr7\Response))
+#2 /home/myreadylink/admin.myreadylink.com/public_html/dashboard/sparkpost/vendor/guzzlehttp/promises/src/Promise.php(156): GuzzleHttp\Pro in /home/myreadylink/admin.myreadylink.com/public_html/dashboard/sparkpost/vendor/sparkpost/sparkpost/lib/SparkPost/SparkPost.php on line 103
+[31-Jul-2018 18:39:28 UTC] PHP Parse error:  syntax error, unexpected '=>' (T_DOUBLE_ARROW), expecting ',' or ')' in /home/myreadylink/admin.myreadylink.com/public_html/dashboard/sparkpost/test-email.php on line 34
+[31-Jul-2018 18:39:29 UTC] PHP Parse error:  syntax error, unexpected '=>' (T_DOUBLE_ARROW), expecting ',' or ')' in /home/myreadylink/admin.myreadylink.com/public_html/dashboard/sparkpost/test-email.php on line 34
+[31-Jul-2018 18:40:37 UTC] PHP Parse error:  syntax error, unexpected '=>' (T_DOUBLE_ARROW), expecting ',' or ')' in /home/myreadylink/admin.myreadylink.com/public_html/dashboard/sparkpost/test-email.php on line 35
+[31-Jul-2018 18:40:59 UTC] PHP Parse error:  syntax error, unexpected '=>' (T_DOUBLE_ARROW), expecting ',' or ')' in /home/myreadylink/admin.myreadylink.com/public_html/dashboard/sparkpost/test-email.php on line 35
+[31-Jul-2018 18:41:03 UTC] PHP Parse error:  syntax error, unexpected '=>' (T_DOUBLE_ARROW), expecting ',' or ')' in /home/myreadylink/admin.myreadylink.com/public_html/dashboard/sparkpost/test-email.php on line 35
+[31-Jul-2018 18:42:25 UTC] PHP Parse error:  syntax error, unexpected '=>' (T_DOUBLE_ARROW), expecting ',' or ')' in /home/myreadylink/admin.myreadylink.com/public_html/dashboard/sparkpost/test-email.php on line 35
+[31-Jul-2018 18:43:58 UTC] PHP Parse error:  syntax error, unexpected ')', expecting ']' in /home/myreadylink/admin.myreadylink.com/public_html/dashboard/sparkpost/test-email.php on line 35
+[31-Jul-2018 18:44:18 UTC] PHP Fatal error:  Uncaught GuzzleHttp\Exception\ClientException: Client error: `POST https://api.sparkpost.com/api/v1/transmissions/` resulted in a `400 Bad Request` response:
+{ "errors": [ { "message": "Invalid domain", "description": "Unconfigured Sending Domain <myreadylink.com> ", "code": "7 (truncated...)
+ in /home/myreadylink/admin.myreadylink.com/public_html/dashboard/sparkpost/vendor/guzzlehttp/guzzle/src/Exception/RequestException.php:113
+Stack trace:
+#0 /home/myreadylink/admin.myreadylink.com/public_html/dashboard/sparkpost/vendor/guzzlehttp/guzzle/src/Middleware.php(66): GuzzleHttp\Exception\RequestException::create(Object(GuzzleHttp\Psr7\Request), Object(GuzzleHttp\Psr7\Response))
+#1 /home/myreadylink/admin.myreadylink.com/public_html/dashboard/sparkpost/vendor/guzzlehttp/promises/src/Promise.php(203): GuzzleHttp\Middleware::GuzzleHttp\{closure}(Object(GuzzleHttp\Psr7\Response))
+#2 /home/myreadylink/admin.myreadylink.com/public_html/dashboard/sparkpost/vendor/guzzlehttp/promises/src/Promise.php(156): GuzzleHttp\Pro in /home/myreadylink/admin.myreadylink.com/public_html/dashboard/sparkpost/vendor/sparkpost/sparkpost/lib/SparkPost/SparkPostPromise.php on line 77
+[31-Jul-2018 18:45:41 UTC] PHP Fatal error:  Uncaught GuzzleHttp\Exception\ClientException: Client error: `POST https://api.sparkpost.com/api/v1/transmissions/` resulted in a `400 Bad Request` response:
+{ "errors": [ { "message": "Invalid domain", "description": "Unconfigured Sending Domain <myreadylink.com> ", "code": "7 (truncated...)
+ in /home/myreadylink/admin.myreadylink.com/public_html/dashboard/sparkpost/vendor/guzzlehttp/guzzle/src/Exception/RequestException.php:113
+Stack trace:
+#0 /home/myreadylink/admin.myreadylink.com/public_html/dashboard/sparkpost/vendor/guzzlehttp/guzzle/src/Middleware.php(66): GuzzleHttp\Exception\RequestException::create(Object(GuzzleHttp\Psr7\Request), Object(GuzzleHttp\Psr7\Response))
+#1 /home/myreadylink/admin.myreadylink.com/public_html/dashboard/sparkpost/vendor/guzzlehttp/promises/src/Promise.php(203): GuzzleHttp\Middleware::GuzzleHttp\{closure}(Object(GuzzleHttp\Psr7\Response))
+#2 /home/myreadylink/admin.myreadylink.com/public_html/dashboard/sparkpost/vendor/guzzlehttp/promises/src/Promise.php(156): GuzzleHttp\Pro in /home/myreadylink/admin.myreadylink.com/public_html/dashboard/sparkpost/vendor/sparkpost/sparkpost/lib/SparkPost/SparkPostPromise.php on line 77
+[31-Jul-2018 18:47:16 UTC] PHP Fatal error:  Uncaught GuzzleHttp\Exception\ClientException: Client error: `GET http://myreadylink.com/get` resulted in a `404 Not Found` response:
+<p>404 - page not found.</p>
+ in /home/myreadylink/admin.myreadylink.com/public_html/dashboard/sparkpost/vendor/guzzlehttp/guzzle/src/Exception/RequestException.php:113
+Stack trace:
+#0 /home/myreadylink/admin.myreadylink.com/public_html/dashboard/sparkpost/vendor/guzzlehttp/guzzle/src/Middleware.php(66): GuzzleHttp\Exception\RequestException::create(Object(GuzzleHttp\Psr7\Request), Object(GuzzleHttp\Psr7\Response))
+#1 /home/myreadylink/admin.myreadylink.com/public_html/dashboard/sparkpost/vendor/guzzlehttp/promises/src/Promise.php(203): GuzzleHttp\Middleware::GuzzleHttp\{closure}(Object(GuzzleHttp\Psr7\Response))
+#2 /home/myreadylink/admin.myreadylink.com/public_html/dashboard/sparkpost/vendor/guzzlehttp/promises/src/Promise.php(156): GuzzleHttp\Promise\Promise::callHandler(1, Object(GuzzleHttp\Psr7\Response), Array)
+#3 /home/myreadylink/admin.myreadylink.com/public_html/dashbo in /home/myreadylink/admin.myreadylink.com/public_html/dashboard/sparkpost/vendor/guzzlehttp/guzzle/src/Exception/RequestException.php on line 113
+[31-Jul-2018 18:49:09 UTC] PHP Fatal error:  Cannot use SparkPost\SparkPost as SparkPost because the name is already in use in /home/myreadylink/admin.myreadylink.com/public_html/dashboard/sparkpost/test-email.php on line 97
+[31-Jul-2018 18:49:29 UTC] PHP Fatal error:  Uncaught GuzzleHttp\Exception\ClientException: Client error: `POST https://api.sparkpost.com/api/v1/transmissions/` resulted in a `400 Bad Request` response:
+{ "errors": [ { "message": "Invalid domain", "description": "Unconfigured Sending Domain <email.diakon.org> ", "code": " (truncated...)
+ in /home/myreadylink/admin.myreadylink.com/public_html/dashboard/sparkpost/vendor/guzzlehttp/guzzle/src/Exception/RequestException.php:113
+Stack trace:
+#0 /home/myreadylink/admin.myreadylink.com/public_html/dashboard/sparkpost/vendor/guzzlehttp/guzzle/src/Middleware.php(66): GuzzleHttp\Exception\RequestException::create(Object(GuzzleHttp\Psr7\Request), Object(GuzzleHttp\Psr7\Response))
+#1 /home/myreadylink/admin.myreadylink.com/public_html/dashboard/sparkpost/vendor/guzzlehttp/promises/src/Promise.php(203): GuzzleHttp\Middleware::GuzzleHttp\{closure}(Object(GuzzleHttp\Psr7\Response))
+#2 /home/myreadylink/admin.myreadylink.com/public_html/dashboard/sparkpost/vendor/guzzlehttp/promises/src/Promise.php(156): GuzzleHttp\Pro in /home/myreadylink/admin.myreadylink.com/public_html/dashboard/sparkpost/vendor/sparkpost/sparkpost/lib/SparkPost/SparkPostPromise.php on line 77
+[31-Jul-2018 18:57:35 UTC] PHP Fatal error:  Uncaught GuzzleHttp\Exception\ClientException: Client error: `POST https://api.sparkpost.com/api/v1/transmissions/` resulted in a `400 Bad Request` response:
+{ "errors": [ { "message": "Invalid domain", "description": "Unconfigured Sending Domain <myreadylink.com> ", "code": "7 (truncated...)
+ in /home/myreadylink/admin.myreadylink.com/public_html/dashboard/sparkpost/vendor/guzzlehttp/guzzle/src/Exception/RequestException.php:113
+Stack trace:
+#0 /home/myreadylink/admin.myreadylink.com/public_html/dashboard/sparkpost/vendor/guzzlehttp/guzzle/src/Middleware.php(66): GuzzleHttp\Exception\RequestException::create(Object(GuzzleHttp\Psr7\Request), Object(GuzzleHttp\Psr7\Response))
+#1 /home/myreadylink/admin.myreadylink.com/public_html/dashboard/sparkpost/vendor/guzzlehttp/promises/src/Promise.php(203): GuzzleHttp\Middleware::GuzzleHttp\{closure}(Object(GuzzleHttp\Psr7\Response))
+#2 /home/myreadylink/admin.myreadylink.com/public_html/dashboard/sparkpost/vendor/guzzlehttp/promises/src/Promise.php(156): GuzzleHttp\Pro in /home/myreadylink/admin.myreadylink.com/public_html/dashboard/sparkpost/vendor/sparkpost/sparkpost/lib/SparkPost/SparkPostPromise.php on line 77
+[31-Jul-2018 19:01:35 UTC] PHP Fatal error:  Uncaught GuzzleHttp\Exception\ClientException: Client error: `POST https://api.sparkpost.com/api/v1/transmissions/` resulted in a `400 Bad Request` response:
+{ "errors": [ { "message": "Invalid domain", "description": "Unconfigured Sending Domain <myreadylink.com> ", "code": "7 (truncated...)
+ in /home/myreadylink/admin.myreadylink.com/public_html/dashboard/sparkpost/vendor/guzzlehttp/guzzle/src/Exception/RequestException.php:113
+Stack trace:
+#0 /home/myreadylink/admin.myreadylink.com/public_html/dashboard/sparkpost/vendor/guzzlehttp/guzzle/src/Middleware.php(66): GuzzleHttp\Exception\RequestException::create(Object(GuzzleHttp\Psr7\Request), Object(GuzzleHttp\Psr7\Response))
+#1 /home/myreadylink/admin.myreadylink.com/public_html/dashboard/sparkpost/vendor/guzzlehttp/promises/src/Promise.php(203): GuzzleHttp\Middleware::GuzzleHttp\{closure}(Object(GuzzleHttp\Psr7\Response))
+#2 /home/myreadylink/admin.myreadylink.com/public_html/dashboard/sparkpost/vendor/guzzlehttp/promises/src/Promise.php(156): GuzzleHttp\Pro in /home/myreadylink/admin.myreadylink.com/public_html/dashboard/sparkpost/vendor/sparkpost/sparkpost/lib/SparkPost/SparkPostPromise.php on line 77
+[31-Jul-2018 19:07:34 UTC] PHP Warning:  require_once(../../includes/config.php): failed to open stream: No such file or directory in /home/myreadylink/admin.myreadylink.com/public_html/dashboard/sparkpost/test-contact.php on line 2
+[31-Jul-2018 19:07:34 UTC] PHP Fatal error:  require_once(): Failed opening required '../../includes/config.php' (include_path='.:/opt/cpanel/ea-php70/root/usr/share/pear') in /home/myreadylink/admin.myreadylink.com/public_html/dashboard/sparkpost/test-contact.php on line 2
+[31-Jul-2018 19:08:55 UTC] PHP Warning:  require_once(../../../includes/config.php): failed to open stream: No such file or directory in /home/myreadylink/admin.myreadylink.com/public_html/dashboard/sparkpost/test-contact.php on line 2
+[31-Jul-2018 19:08:55 UTC] PHP Fatal error:  require_once(): Failed opening required '../../../includes/config.php' (include_path='.:/opt/cpanel/ea-php70/root/usr/share/pear') in /home/myreadylink/admin.myreadylink.com/public_html/dashboard/sparkpost/test-contact.php on line 2
+[31-Jul-2018 19:08:56 UTC] PHP Warning:  require_once(../../../includes/config.php): failed to open stream: No such file or directory in /home/myreadylink/admin.myreadylink.com/public_html/dashboard/sparkpost/test-contact.php on line 2
+[31-Jul-2018 19:08:56 UTC] PHP Fatal error:  require_once(): Failed opening required '../../../includes/config.php' (include_path='.:/opt/cpanel/ea-php70/root/usr/share/pear') in /home/myreadylink/admin.myreadylink.com/public_html/dashboard/sparkpost/test-contact.php on line 2
+[31-Jul-2018 19:14:08 UTC] PHP Parse error:  syntax error, unexpected ')' in /home/myreadylink/admin.myreadylink.com/public_html/dashboard/sparkpost/test-contact.php on line 189
+[31-Jul-2018 19:14:09 UTC] PHP Parse error:  syntax error, unexpected ')' in /home/myreadylink/admin.myreadylink.com/public_html/dashboard/sparkpost/test-contact.php on line 189
+[31-Jul-2018 19:14:16 UTC] PHP Parse error:  syntax error, unexpected ')' in /home/myreadylink/admin.myreadylink.com/public_html/dashboard/sparkpost/test-contact.php on line 189
